@@ -1,0 +1,75 @@
+:root{
+    background: radial-gradient(circle, rgb(239, 176, 93), rgb(49, 29, 3));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+#resetButton {
+    padding: 10px 20px;
+    background-color: rgba(240, 149, 30, 0.458);
+    color: rgb(18, 1, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 2%;
+    left: 2%;
+}
+#intro{
+    margin: 5%;
+    margin-top: 10%;
+
+}
+h1{
+    font-size: 300%;
+    margin-left: 35%;
+}
+#MENU{
+    font-size: 300%;
+    margin-top: 5%;
+    margin-left: 42%;
+    margin-right: 46.5%;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgba(255, 241, 161, 0.595);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 175%;
+    border: 2px solid black;
+    padding: 3px;
+    margin: 2.5%;
+    background-color: rgba(184, 214, 241, 0.1);
+}
+img{
+    height: 160px;
+    border: 5px solid rgba(168, 107, 225, 0.232);
+}
+#items>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.itemName{
+
+    font-size: 140%;
+    margin-left: 2%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.itemName>div{
+    font-size:medium;
+}
+#items>div>img{
+    margin-right: auto   ;
+    margin-left: 10%;}
+#mi{
+    display: flex;
+    flex-direction: column;
+}
